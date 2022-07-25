@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="likes-section flexed">
+            <div class="left-div">
+                <h1>Jane Doe</h1>
+            </div>
+            <div class="right-div flexed">
+                <p><span id="likeNum">0 </span><span id="likeText">like</span> </p>
+                <button onclick="incrementLike('likeNum'); incrementText('likeText');">Like</button>
+            </div>
+        </div>
+        <div class="p-section">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et officiis repellat consequatur, explicabo esse blanditiis beatae dignissimos obcaecati quidem animi.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
